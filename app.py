@@ -10,7 +10,7 @@ from reportlab.lib.units import cm
 from PIL import Image
 
 st.set_page_config(layout="wide")
-st.title("Analyse EET-Daten")
+st.title("Analyse Tool EET-Daten")
 
 # Excel-Datei laden (muss im Projektverzeichnis liegen)
 excel_path = "EET_Beispieldaten_100_ISINs_variiert.xlsx"
