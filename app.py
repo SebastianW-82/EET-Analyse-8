@@ -79,7 +79,7 @@ else:
                 num_values = subset[column].count()
 
                 col1, col2 = st.columns([3, 1], gap='large')
-                st.markdown("<div style='height: 0px'></div>", unsafe_allow_html=True)
+               
 
                 with col1:
                     st.markdown(f"<h4 style='margin-bottom: 5px;'>{column}</h4>", unsafe_allow_html=True)
