@@ -82,6 +82,7 @@ else:
                 st.markdown("<div style='height: 0px'></div>", unsafe_allow_html=True)
 
                 with col1:
+                    st.markdown(f"<h4 style='margin-bottom: 5px;'>{column}</h4>", unsafe_allow_html=True)
                     fig, ax = plt.subplots(figsize=(8, 3.5))
                     plt.xticks(fontsize=7)
                     plt.yticks(fontsize=7)
