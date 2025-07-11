@@ -113,7 +113,7 @@ else:
                     info_x = 15.9 * cm
                     info_y = 23.2 * cm
                     c.setFillColorRGB(0.97, 0.97, 0.97)
-                    c.setFont("Helvetica", 8)
+                    c.setFont("Helvetica-Bold", 8)
                     text_lines = [
                         f"Wert zur ISIN: {user_value}",
                         f"Anzahl ISINs Peergroup: {num_values}",
