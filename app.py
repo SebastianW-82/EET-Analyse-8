@@ -33,7 +33,7 @@ else:
     st.markdown("""
         <style>
         div[data-testid=\"stTextInput\"] input {
-            width: 300px;
+            width: 50px;
         }
         </style>
     """, unsafe_allow_html=True)
