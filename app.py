@@ -62,6 +62,8 @@ else:
                 </div>
             """, unsafe_allow_html=True)
 
+            st.markdown("<div style='height: 80px'></div>", unsafe_allow_html=True)
+
             pdf_buffer = io.BytesIO()
             c = canvas.Canvas(pdf_buffer, pagesize=A4)
 
