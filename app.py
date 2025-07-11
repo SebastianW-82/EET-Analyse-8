@@ -53,7 +53,7 @@ else:
             st.markdown("<div style='height: 30px'></div>", unsafe_allow_html=True)
     
             st.markdown(f"""
-                <div style='background-color:#00a0de; padding: 15px; border-radius: 5px; width: fit-content;'>
+                <div style='background-color:#00a0de; padding: 15px; border-radius: 0px; width: fit-content;'>
                     <h4 style='color: white;'>Daten zur ISIN {user_isin}</h4>
                     <p style='color: white;'>Klassifikation: {klassifikation_label}</p>
                     <ul style='color: white;'>
