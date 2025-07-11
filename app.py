@@ -51,9 +51,7 @@ else:
             klassifikation_label = f"Art. {int(user_klassifikation)}"
 
             st.markdown("<div style='height: 30px'></div>", unsafe_allow_html=True)
-            
-            st.markdown("<div style='height: 60px'></div>", unsafe_allow_html=True)
-
+    
             st.markdown(f"""
                 <div style='background-color:#00a0de; padding: 15px; border-radius: 5px; width: fit-content;'>
                     <h4 style='color: white;'>Daten zur ISIN {user_isin}</h4>
