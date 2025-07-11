@@ -66,7 +66,7 @@ else:
             for idx, column in enumerate(spalten):
                 user_value = user_row[column]
                 if idx > 0:
-                    st.markdown("<div style='height: 100px'></div>", unsafe_allow_html=True)
+                    st.markdown("<div style='height: 70px'></div>", unsafe_allow_html=True)
                 if idx > 0:
                     st.markdown("<br>", unsafe_allow_html=True)
                 mean_val = subset[column].mean()
@@ -75,7 +75,7 @@ else:
                 num_values = subset[column].count()
 
                 col1, col2 = st.columns([3, 1], gap='large')
-                st.markdown("<div style='height: 0px'></div>", unsafe_allow_html=True)
+                st.markdown("<div style='height: 50px'></div>", unsafe_allow_html=True)
 
                 with col1:
                     fig, ax = plt.subplots(figsize=(8, 3.5))
